@@ -156,8 +156,8 @@ def create_result_dict(path, url, item, aoi_wkt, cldprb_value):
         'ID': item[2],
         'link': url,
         'aoi': aoi_wkt,
-        'ac_date': item[5].split('T')[0],
-        'ac_time': item[5].split('T')[1],
+        'ac_date': item[12]['End'].split('T')[0],
+        'ac_time': item[12]['End'].split('T')[1],
         'cloud_prob': cldprb_value
     }
     return result
