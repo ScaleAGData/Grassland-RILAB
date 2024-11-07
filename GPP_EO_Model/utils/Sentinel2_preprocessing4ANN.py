@@ -3,6 +3,8 @@
 Created on Wed Oct 30 18:30:02 2024
 
 @author: pcss
+
+VERY IMPORTANT: bebore to run change line 268 with the credential of your Copernicus Hub account (email and password).
 """
 
 import requests
