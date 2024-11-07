@@ -263,7 +263,7 @@ def S2processing_frompolygon(start_date, end_date, aoi_download, aoi_fp, results
         output_list = filter_output_list_by_datatype(output_list, datatype)
         
     output_list_in = output_list
-    access_token = get_access_token("paolocosmo.silvestro@gmail.com", "Alessandro2023?")
+    access_token = get_access_token("youremail@xxx.com", "yourpassword")
     processed_items = []
 
     if result_pd is None: 
