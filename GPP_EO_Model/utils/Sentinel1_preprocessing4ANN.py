@@ -1,8 +1,42 @@
+# -*- coding: utf-8 -*-
+"""
 Created on Wed Nov 20 2024
 Last update on Fri Nov 28 2025
 @project: ScaleAgData
 @author: paolo cosmo silvestro
+Summary:
+This script automates the retrieval and processing of Sentinel-1 GRD (IW_GRDH)
+products from the Copernicus Data Space Ecosystem and extracts VV and VH
+backscatter statistics over a user-defined Area of Interest (AOI).
+
+Main steps:
+1. Query the Copernicus OData catalogue for Sentinel-1 products that intersect
+   a given AOI and fall within a specified date range.
+2. Filter the product list by acquisition mode / product type (e.g. IW_GRDH).
+3. Authenticate to Copernicus Data Space and download each product as a ZIP file.
+4. Extract the SAFE structure and locate the measurement rasters (VV and VH).
+5. Modify a SNAP GPT XML graph (e.g. S1_manual.xml) to:
+   - set the input product (manifest.safe),
+   - set the pixel region (width and height),
+   - set the output product name.
+6. Execute the SNAP graph using the gpt command-line tool to generate a
+   processed Sentinel-1 product (e.g. orbit-corrected, calibrated, speckle-
+   filtered, terrain-corrected).
+7. Search the processed output directory for .img rasters (VV and VH) and
+   extract all pixel values inside the AOI polygon (WKT, EPSG:4326).
+8. Compute mean VV and VH values for the AOI and store them together with
+   product metadata in a pandas DataFrame.
+9. Export the results to:
+   - a CSV file (ID, link, AOI, acquisition date/time, mean VV, mean VH),
+   - pickle files containing the full DataFrame and the original product list.
+
+Note:
+- You must provide valid Copernicus Data Space credentials in the
+  get_access_token() call used inside S1processing_frompolygon().
+- SNAP and the gpt command must be installed and available in your PATH.
 """
+
+
 
 import requests
 import pandas as pd
