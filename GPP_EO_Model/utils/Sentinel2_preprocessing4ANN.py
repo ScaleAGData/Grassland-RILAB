@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Oct 30 18:30:02 2024
-
-@author: pcss
+Last modified on Fri Nov 11 2025
+project: ScaleAgData
+@author: paolo cosmo silvestro
 
 VERY IMPORTANT: bebore to run change line 268 with the credential of your Copernicus Hub account (email and password).
 """
