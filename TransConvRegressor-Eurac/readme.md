@@ -45,7 +45,7 @@ python train.py
 python prediction.py
 - This script loads the trained model, performs inference on the test data, and saves the predicted LAI values along with additional information to CSV files.
 - We used a CSV dataset containing Sentinel‑1 RTC features, soil moisture information and altitudinal classes for prediction on unseen sites, which can be summarized as follows:
-  <img width="494" height="92" alt="image" src="https://github.com/user-attachments/assets/ab71c4e1-49c2-47f4-a4f5-8a49c65cef42" />
+<img width="494" height="92" alt="image" src="https://github.com/user-attachments/assets/ab71c4e1-49c2-47f4-a4f5-8a49c65cef42" />
 
 - (a) Predicted LAI vs S2-LAI in one of the unseen field sites in Fondo F1 (Trento), (b) Trend of gap-filled LAI with Sentinel-2 LAI in Fondo - F1(Trento)
   
