@@ -18,7 +18,7 @@ The core model is a 1D Transformer-based architecture, combining convolutional l
 - S1 SAR (RTC): We downloaded the S1 RTC from the Microsoft Planetary Computer as netcdfs. RTC is radiometrically terrain corrected GRD data, to account for radiometrics effects resulting from the topography.
 - Sentinel-2 derived LAI: We computed LAI from the S2 L2A files over selected years and tiles using the SNAP Biophysical Processor.
 - Soil Moisture: We considered Surface Soil Moisture based on a combination of SAR and optical imagery [1]. We simulated the required soil moisture data over the AOI.
-- Topographical Classes: Type of meadows are selected from LAFIS data. We have only considered colline, submontane, montane and subalpine for this study because most of managed grasslands is in this elevation range.
+- Topographical Classes: Type of meadows are selected from LAFIS data. We have only considered colline, submontane, montane and subalpine (e.g. S_coll, N_coll, S_submont, N_submont, S_mont, N_mont, S_subalp, N_subalp) split into south and north facing meadows for this study.
 - AOI: LAFIS Grasslands over South Tyrol (Italy)
 [1] F. Greifeneder, C. Notarnicola, and W. Wagner, “A machine learning-based approach for surface soil moisture estimations with google earth engine,” Remote Sensing, vol. 13, no. 11, p. 2099, 2021.
 
