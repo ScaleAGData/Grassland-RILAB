@@ -30,7 +30,7 @@ The core model is a 1D Transformer-based architecture, combining convolutional l
 ## Training, Validation and Test
 python train.py
 - This will initiate the training process, including data preprocessing, model training, validation and test.
-- We used a CSV dataset containing Sentinel‑1 RTC features, soil moisture information, and altitudinal classes, which can be summarized as follows:
+- We used a CSV dataset containing Sentinel‑1 RTC features, soil moisture information, altitudinal classes and target S2 LAI for training and validation, which can be summarized as follows:
 <img width="521" height="104" alt="image" src="https://github.com/user-attachments/assets/655a9ef6-d7bf-4818-89a3-97af202483a4" />
 
 
@@ -44,6 +44,9 @@ python train.py
 ## Prediction
 python prediction.py
 - This script loads the trained model, performs inference on the test data, and saves the predicted LAI values along with additional information to CSV files.
+- We used a CSV dataset containing Sentinel‑1 RTC features, soil moisture information and altitudinal classes for prediction on unseen sites, which can be summarized as follows:
+  <img width="494" height="92" alt="image" src="https://github.com/user-attachments/assets/ab71c4e1-49c2-47f4-a4f5-8a49c65cef42" />
+
 - (a) Predicted LAI vs S2-LAI in one of the unseen field sites in Fondo F1 (Trento), (b) Trend of gap-filled LAI with Sentinel-2 LAI in Fondo - F1(Trento)
   
 <img width="4986" height="2407" alt="image" src="https://github.com/user-attachments/assets/2c4577b9-23a2-424e-aa0c-ebaa20bff296" />
