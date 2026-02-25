@@ -31,7 +31,8 @@ The core model is a 1D Transformer-based architecture, combining convolutional l
 python train.py
 - This will initiate the training process, including data preprocessing, model training, validation and test.
 - We used a CSV dataset containing Sentinel‑1 RTC features, soil moisture information, and altitudinal classes, which can be summarized as follows:
-<img width="297" height="61" alt="image" src="https://github.com/user-attachments/assets/f82292b8-8094-4e3a-b013-31b09750a13d" />
+<img width="521" height="104" alt="image" src="https://github.com/user-attachments/assets/655a9ef6-d7bf-4818-89a3-97af202483a4" />
+
 
 # Analysis of the trained model on the test set
 - Comparison of scatter plot between predicted LAI and S2-LAI on the test set
