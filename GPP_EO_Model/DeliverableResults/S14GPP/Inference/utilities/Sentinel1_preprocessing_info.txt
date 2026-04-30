@@ -1,1 +1,21 @@
+1. Sentinel-1 Image Requirements
+To feed this pipeline correctly, you must download Sentinel-1 products with the following specifications:
+- Mode: IW (Interferometric Wide Swath).
+- Product Type: GRD (Ground Range Detected).
+- Polarization: Must be Dual-Pol (VH + VV). The inference script specifically requires both bands to generate the GPP map.
+- Resolution: High Resolution (HR).
 
+2. Geoprocessing Steps (SNAP Workflow)
+Based on the S1_manual.xml graph, the raw data undergoes these specific transformations to become a model-ready GeoTIFF:
+- Apply-Orbit-File: Updates satellite orbit information for precise geometric accuracy.
+- ThermalNoiseRemoval: Removes background thermal noise, which is critical for the weaker signal in the VH band.
+- Calibration: Converts digital pixel values into physical backscatter values (sigma^0).
+- Speckle-Filter: Typically applies a filter (like Refined Lee) to reduce the "salt and pepper" graininess inherent in radar imagery.
+- Terrain-Correction (Range Doppler): Corrects geometric distortions caused by topography using a Digital Elevation Model (DEM) and projects the image into geographic coordinates (WGS84).
+- Subset / LinearToFromdB: Clips the image to the study area and converts values to a logarithmic scale (decibels) if required by the model normalization.
+
+3. Path to the SNAP XML Processing File
+The automated graph configuration containing all the steps mentioned above is located at the following path within your project structure:
+\S14GPP\Inference\utilities\S1_manual.xml
+
+To optimize computation costs, it is recommended to crop an area of ​​interest from the preprocessed Sentinel image and apply a mask that shows only the grassland areas.
