@@ -46,5 +46,5 @@ This folder acts as the central hub for the Earth Observation (EO) models develo
 
 ---
 **Author:** Paolo Cosmo Silvestro
-**Updated:** April 2026[cite: 2, 7]
+**Updated:** April 2026
 ```
