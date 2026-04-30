@@ -1,0 +1,11 @@
+Session Timestamp ID: 20260421_165900
+Completion Date: 2026-04-21 22:41:18
+Total Loop Iterations: 1207
+Best iteration index: 207
+
+--- MODEL PERFORMANCE ---
+R2 Validation: 0.654845
+R2 Test:       0.652395
+RMSE:          1.824610
+RRMSE:         0.641502
+RAE:           0.603720
