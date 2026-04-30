@@ -1,4 +1,4 @@
-README: GPP Prediction using Sentinel-1 and MLP
+GPP Prediction using Sentinel-1 and MLP
 Project Overview
 This project, developed under the ScaleAgData initiative, provides a Python-based pipeline to train a 
 Multilayer Perceptron (MLP) neural network. The model is designed to estimate Gross Primary Production 
