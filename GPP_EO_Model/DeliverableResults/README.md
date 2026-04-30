@@ -1,4 +1,4 @@
-GPP Estimation Project - Environment Setup
+Improved grassland GPP maps based on flux tower sensors
 
 1. Project Overview: GPP Estimation and Grassland Monitoring
 
@@ -13,15 +13,15 @@ satellite data, in-situ sensors, and modeling techniques are integrated to addre
 agricultural challenges.
 
 1.2 RILAB Grassland
-The Grassland RILAB is a 
-collaborative effort involving multidisciplinary teams—including experts from Indra space (previously 
-Deimos Space), EURAC and IFAPA focused on monitoring the productivity and health of grassland ecosystems.
-The primary goal of this RILAB is to provide actionable intelligence for sustainable livestock management 
-and carbon sequestration tracking. Within this framework, three key services have been developed:
+The Grassland RILAB is a collaborative effort involving multidisciplinary teams—including experts from Indra 
+Space (previously Deimos Space), EURAC and IFAPA focused on monitoring the productivity and health of 
+grassland ecosystems. The primary goal of this RILAB is to provide actionable intelligence for sustainable 
+livestock management and carbon sequestration tracking. Within this framework, three key services have been 
+developed:
 a. Gap-filled grassland LAI maps at parcel level: High-resolution monitoring of Leaf Area Index (LAI) and FCOVER.
 b. Estimated grassland yield at parcel level: Quantifying available forage for livestock management.
-c. Improved grassland GPP maps based on flux tower sensors: Modeling the total carbon fixed by photosynthesis to assess 
-ecosystem efficiency and health.  
+c. Improved grassland GPP maps based on flux tower sensors: Modeling the total carbon fixed by photosynthesis to 
+   assess ecosystem efficiency and health.  
 
 1.3 GPP Estimation Pipeline
 This specific repository provides a modular and automated pipeline for the Estimation of Gross Primary 
