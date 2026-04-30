@@ -13,4 +13,4 @@ Repository Structure
 
 Training/ : Contains the core logic for model development. Further details have been provided in the README.md contained in Training fodler
 Inference/: Contains the best model resulted from the train, all the ausiliary info, a Se preprocessed example and the script to create the GPP map. 
-            Further details have been provided in the README.md contained in Inference fodler
+            Further details have been provided in the README.md contained in Inference folder
