@@ -4,6 +4,7 @@ This repository contains the training pipeline and inference tools for estimatin
 This work is part of the ScaleAgData initiative (WP5 - Grassland RILAB).
 
 Overview
+
 The S24GPP module aims to develop a GPP estimation model for grassland by training a model based on in situ data collected with eddy covariance towers and Sentinel-2 data.
 Full details on how the model was developed are contained in the Training folder. 
 Full details on how to use the model to generate GPP maps from Sentinel-2 data are contained in the Inference folder.
