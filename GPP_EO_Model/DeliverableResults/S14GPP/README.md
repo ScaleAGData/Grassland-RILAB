@@ -1,4 +1,5 @@
 GPP Estimation from Sentinel-1 (S14GPP)
+
 This repository contains the training pipeline and inference tools for estimating Gross Primary Production (GPP) using Sentinel-1 (SAR) satellite data. This work is part of the ScaleAgData initiative (WP5 - Grassland RILAB).  
 Overview
 Unlike optical sensors, Sentinel-1's Synthetic Aperture Radar (SAR) can penetrate cloud cover, providing a consistent 
