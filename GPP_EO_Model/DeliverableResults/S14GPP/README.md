@@ -10,4 +10,4 @@ temporal signal of grassland structure. This module uses backscatter coefficient
 Repository Structure
 
 1. Training/: Contains the core logic for model development. Further details have been provided in the README.md contained in Training fodler
-2. Inference/: Contains the best model resulted from the train, all the ausiliary info, a S1 preprocessed example and the script to create the GPP map. Further details have been provided in the README.md contained in Inference fodler
+2. Inference/: Contains the best model resulted from the train, all the ausiliary info, a S1 preprocessed example and the script to create the GPP map. Further details have been provided in the README.md contained in Inference folder
