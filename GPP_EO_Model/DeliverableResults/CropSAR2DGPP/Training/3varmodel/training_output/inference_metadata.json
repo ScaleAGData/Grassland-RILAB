@@ -1,0 +1,21 @@
+{
+    "project": "ScaleAgData - WP5 Rilab Grassland",
+    "algorithm_winner": "Random Forest",
+    "features_required": [
+        "FCOVER",
+        "NDVI Average",
+        "FAPAR Average",
+        "NDVI_FAPAR_Interact",
+        "DOY_sin",
+        "DOY_cos"
+    ],
+    "target_variable": "GPP",
+    "training_timestamp": "20260427_181719",
+    "best_iteration_index": 1000,
+    "performance_metrics": {
+        "test_r2": 0.7362824291689418,
+        "test_rmse": 1.7863153563479437,
+        "test_rrmse": 52.91667984307652,
+        "test_rae": 47.16430962267557
+    }
+}
