@@ -1,0 +1,14 @@
+{
+    "project": "ScaleAgData - WP5 Rilab Grassland",
+    "algorithm_winner": "Random Forest",
+    "features_required": [
+        "FCOVER",
+        "DOY_sin",
+        "DOY_cos"
+    ],
+    "target_variable": "GPP",
+    "performance_metrics": {
+        "test_r2": 0.7401442533046744,
+        "test_rmse": 1.773187908742572
+    }
+}
