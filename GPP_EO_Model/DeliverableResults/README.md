@@ -3,6 +3,7 @@ Improved grassland GPP maps based on flux tower sensors
 1. Project Overview: GPP Estimation and Grassland Monitoring
 
 1.1 ScaleAgData Initiative
+
 The ScaleAgData project is a European research initiative funded under the Horizon Europe framework 
 (Grant Agreement No. 101083401). Running from January 2023 to December 2026, the project aims to improve 
 the environmental performance and competitiveness of the European agricultural sector by enhancing the use 
@@ -13,6 +14,7 @@ satellite data, in-situ sensors, and modeling techniques are integrated to addre
 agricultural challenges.
 
 1.2 RILAB Grassland
+
 The Grassland RILAB is a collaborative effort involving multidisciplinary teams—including experts from Indra 
 Space (previously Deimos Space), EURAC and IFAPA focused on monitoring the productivity and health of 
 grassland ecosystems. The primary goal of this RILAB is to provide actionable intelligence for sustainable 
@@ -24,6 +26,7 @@ c. Improved grassland GPP maps based on flux tower sensors: Modeling the total c
    assess ecosystem efficiency and health.  
 
 1.3 GPP Estimation Pipeline
+
 This specific repository provides a modular and automated pipeline for the Estimation of Gross Primary 
 Production (GPP). It integrates multi-source satellite data to produce high-frequency carbon flux maps.
 The software included here manages the entire lifecycle of the GPP service:  
