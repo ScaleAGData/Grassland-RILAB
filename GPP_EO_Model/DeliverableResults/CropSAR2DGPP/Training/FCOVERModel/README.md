@@ -54,4 +54,4 @@ After execution, check the `GPP_3vars_Inference_[TIMESTAMP]` folder for:
 ---
 
 **Project Context:**  
-This work is part of **ScaleAgData Work Package 5 (SpainSite Grassland)**, supported by the Horizon Europe framework. For inquiries regarding the CropSAR2D data source, visit [Terrascope](https://portal.terrascope.be).
+This work is part of **ScaleAgData Work Package 5 (Grassland RILAB)**, supported by the Horizon Europe framework. For inquiries regarding the CropSAR2D data source, visit [Terrascope](https://portal.terrascope.be).
