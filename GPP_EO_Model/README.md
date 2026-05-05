@@ -11,7 +11,7 @@ This repository contains the models and processing pipelines for estimating **Gr
 The **RILAB** (Regional Innovation Laboratory) concept is central to the project, acting as a collaborative space to test and validate research in real-world conditions. The **Grassland RILAB**—composed of partners including **Indra** and **VITO**—is dedicated to monitoring grassland ecosystems. Its primary objective is to support sustainable management and carbon tracking through three core services:
 1.  **Biophysical Variable Retrieval** (e.g., FCOVER, LAI).
 2.  **Estimated grassland yield at parcel level**.
-3.  **GPP Estimation** (the focus of this specific repository).
+3.  **Improved grassland GPP maps based on flux tower sensors** (the focus of this specific repository).
 
 ---
 
