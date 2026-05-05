@@ -1,4 +1,4 @@
-# ScaleAgData: GPP Estimation Model – Grassland RILAB
+# ScaleAgData: GPP Estimation Model (machine learning methods) – Grassland RILAB
 
 This repository contains the models and processing pipelines for estimating **Gross Primary Production (GPP)** as part of the **ScaleAgData** project.
 
