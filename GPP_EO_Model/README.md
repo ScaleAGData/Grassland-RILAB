@@ -28,7 +28,7 @@ This folder acts as the central hub for the Earth Observation (EO) models develo
 *   **`utils/`**: A collection of auxiliary Python scripts for data preprocessing, including:
     *   `EOdata_csvunifier.py`: Consolidates various data sources into a single CSV format.
     *   `Sentinel1_preprocessing4ANN.py` and `Sentinel2_preprocessing4ANN.py`: Scripts designed to prepare raw satellite features for Neural Network training.
-*   **`environment.yml`**: The configuration file required to create the **Conda environment** (`gpp_env`). This file ensures all necessary libraries (TensorFlow, XGBoost, Rasterio, Scikit-learn) are installed with the correct versions to run the scripts in this repository.
+
 
 ---
 
