@@ -17,7 +17,7 @@ The **RILAB** (Regional Innovation Laboratory) concept is central to the project
 
 ## Repository Content
 
-This folder acts as the central hub for the Earth Observation (EO) models developed to estimate carbon flux (GPP). It organizes different machine learning approaches based on the specific satellite data source used.
+This folder acts as the central hub for the Earth Observation (EO) models developed to estimate Gross Primary Production (GPP). It organizes different machine learning approaches based on the specific satellite data source used.
 
 ### Main Components:
 
