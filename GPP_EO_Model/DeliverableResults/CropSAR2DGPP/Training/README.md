@@ -75,3 +75,4 @@ cloudy periods, ensuring a seamless data stream.
 ----------------------------
 The service is primarily accessed via the openEO API as a batch process 
 within the Copernicus infrastructure.
+https://marketplace-portal.dataspace.copernicus.eu/catalogue/app-details/80
