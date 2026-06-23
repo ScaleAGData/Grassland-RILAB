@@ -1,7 +1,7 @@
 
 # -*- coding: utf-8 -*-
 """
-Updated on Fri Apr 24 2026
+Updated on Tue June 23 2026
 @project: ScaleAgData - WP5 Rilab Grassland
 @task: GPP Estimation - Minimal Model (FCOVER + DOY)
 @author: Paolo Cosmo Silvestro
